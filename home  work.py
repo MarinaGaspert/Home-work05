@@ -13,6 +13,6 @@ def sum(a, b):
         else:
             return sum(a - 1, b + 1)
 
-print(sum(int(input()),int(input())))
+print(sum(int(input("Введите 1 число: ")),int(input("Введите 2 число: "))))
 
 
